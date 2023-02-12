@@ -74,11 +74,36 @@ body>header{
     height: 60%;
     background: #1b2125;
     display: flex;
-    align-items: center;
+    
     gap: 25px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 10px;
-    justify-content:center ;
+  justify-content: center;
+    padding-left: 350px;
+    padding: 15px;
+
+}
+.logosRodape{
+   width: 100%;
+  height: 60%;
+    background: #0c0f11;
+  display: flex;
+  gap: 45px;
+  justify-content: right;
+  padding-right: 450px;
+
+    
+ 
+}
+.direitos{
+    width: 100%;
+    height: 60%;
+    background: #0c0f11;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+
+
 }
