@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+
+}
+
+body>header{
+    width: 100%;
+    height: 60%;
+    background: #0c0f11;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-left: 50px;
+
+
+}
+
+.Logotipo img {
+    height: 50px;
+
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu a, .menu a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+
+}
+.banner img{
+    width: 100%;
+
+}
+.nossosJogos{
+    background-image: url('../img/bg-nossos-jogos.jpg');
+    padding: 100px;
+}
+.artigos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.Sobre{
+    width: 100%;
+    height: 60%;
+    background: #0c0f11;
+    display: flex;
+    align-items:center;
+    gap: 100px;
+    padding-left: 350px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    justify-content: center;
+
+
+}
+.menurodape {
+    width: 100%;
+    height: 60%;
+    background: #1b2125;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    justify-content:center ;
+}
